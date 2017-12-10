@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  color: inherit;
+  font-family: 'Itim', cursive;
+}
+
+body {
+  background-color: $darkBrown;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.page {
+  margin-left: 150px;
+}
+
+.btn {
+  border: 2px solid $pink;
+  border-radius: 5px;
+  margin: 2em auto;
+  background: $pink;
+  height: 55px;
+  width: 200px;
+  text-align: center;
+  padding-top: .5em;
+  font-size: 1.25em;
+  cursor: pointer;
+}

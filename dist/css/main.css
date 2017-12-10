@@ -1,0 +1,121 @@
+@import "https://fonts.googleapis.com/css?family=Indie+Flower|Itim";
+@import "https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css ";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  color: inherit;
+  font-family: 'Itim', cursive; }
+
+body {
+  background-color: #8B7563; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+.page {
+  margin-left: 150px; }
+
+.btn {
+  border: 2px solid #D88C76;
+  border-radius: 5px;
+  margin: 2em auto;
+  background: #D88C76;
+  height: 55px;
+  width: 200px;
+  text-align: center;
+  padding-top: .5em;
+  font-size: 1.25em;
+  cursor: pointer; }
+
+.nav {
+  display: none;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  text-align: center;
+  color: #EFE5D6;
+  transition: 500ms;
+  z-index: -2; }
+  .nav .nav-logo {
+    display: block;
+    z-index: 2;
+    height: 150px;
+    padding-top: 1.25em; }
+    .nav .nav-logo img {
+      width: 100px; }
+  .nav .nav-btn {
+    display: block;
+    position: fixed;
+    right: 20px;
+    top: 15px;
+    z-index: 12;
+    font-size: 1.5em; }
+  .nav .nav-menu {
+    margin-top: 25px; }
+    .nav .nav-menu .nav-list {
+      font-size: 1.35em; }
+      .nav .nav-menu .nav-list li {
+        margin: 1.25em auto; }
+        .nav .nav-menu .nav-list li:hover {
+          color: #BDA48C; }
+          .nav .nav-menu .nav-list li:hover i {
+            transform: scale(1.25); }
+  .nav .nav-social {
+    display: none; }
+
+@media screen and (min-width: 768px) {
+  .nav {
+    display: block;
+    position: fixed;
+    width: 150px;
+    background: #403F3D; }
+    .nav .nav-btn {
+      display: none; }
+    .nav .nav-menu {
+      margin-top: 50px; }
+    .nav .nav-social {
+      display: block;
+      position: fixed;
+      bottom: 20px;
+      width: 150px; }
+      .nav .nav-social .social li {
+        display: inline-block;
+        margin: .2em;
+        border: #D88C76 2px solid;
+        border-radius: 510px;
+        font-size: 2em;
+        width: 55px;
+        height: 55px;
+        text-align: center;
+        padding-top: .2em; }
+        .nav .nav-social .social li:hover {
+          color: #D88C76;
+          background-color: #EFE5D6;
+          transform: scale(0.75); } }
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  z-index: -5; }
+  .hero .hero-content {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #EFE5D6;
+    text-align: center;
+    width: 100%; }
+    .hero .hero-content .title {
+      font-size: 3.75em;
+      font-family: 'Indie Flower', cursive; }
+    .hero .hero-content .sub-title {
+      font-size: 2.5em;
+      font-family: 'Indie Flower', cursive; }
