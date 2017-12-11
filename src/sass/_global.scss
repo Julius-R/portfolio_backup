@@ -12,13 +12,37 @@ body {
   background-color: $darkBrown;
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
 img {
     max-width: 100%;
     height: auto;
   }
 
-.page {
-  margin-left: 150px;
+.nav-btn {
+  cursor: pointer;
+  display: block;
+  position: fixed;
+  color: $white;
+  right: 20px;
+  top: 15px;
+  font-size: 1.5em;
+  z-index: 12;
+}
+
+
+@media screen and (min-width: 768px) {
+  .page {
+    margin-left: 150px;
+  }
+
+  .nav-btn {
+    display: none;
+  }
 }
 
 .btn {
@@ -32,4 +56,9 @@ img {
   padding-top: .5em;
   font-size: 1.25em;
   cursor: pointer;
+}
+
+.current {
+  border-right: 2px solid $pink;
+  border-radius: 2.5px;
 }
