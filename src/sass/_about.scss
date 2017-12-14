@@ -1,0 +1,61 @@
+.about-section {
+  background-color: #232323;
+
+  .about-me {
+    color: #fff;
+    text-align: center;
+
+    h1 {
+      text-align: center;
+      color: #f39c10;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    h2 {
+      margin-top: 20px;
+    }
+    .box-info {
+      margin-top: 10px;
+      padding: 10px;
+      .box {
+        margin: 20px;
+        .beginner {
+          color: #e74c3c;
+        }
+        .intermediate {
+          color: #f1c40f;
+        }
+        .pro {
+          color: #2ecc71;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .about-section {
+    background-color: #232323;
+
+    .about-me {
+      padding: 4.25em;
+      color: #fff;
+      outline: 2px solid rgba(243, 156, 18,1);
+      outline-offset: -2.5em;
+      position: relative;
+
+      h1 {
+        color: #f39c10;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: .45em;
+        background-color: #232323;
+        padding: 10px;
+      }
+      .box-info {
+        display: flex;
+      }
+    }
+  }
+}

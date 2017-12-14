@@ -1,0 +1,44 @@
+.social-media {
+  background-color: #232323;
+  color: #f39c10;
+  text-align: center;
+  padding: 2em;
+
+  .social-nav {
+
+    .social-link {
+      display: inline-block;
+      padding: 1em;
+      font-size: 1.5em;
+
+      a {
+        color: inherit;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .social-media {
+    font-size: 1.8em;
+
+    .social-nav {
+
+      .social-link {
+        display: inline-block;
+        padding: 1em;
+
+        a {
+          color: inherit;
+
+          &:hover {
+            color: #fff;
+          }
+          i:before {
+            font-size: .85em;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.contact-sec {
+  background-color: #f39c10;
+  text-align: center;
+  padding: 2em;
+
+  h1 {
+    margin: 0 auto 2em auto;
+  }
+
+  .btn {
+    border: 2px solid #111;
+    background-color: #111;
+    color: #f39c10;
+    border-radius: 5px;
+    padding: .85em;
+    font-size: 1em;
+
+    &:hover {
+      border: 2px solid #f39c10;
+      background-color: #f39c10;
+      color: #111;
+      font-size: 1.3em;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-sec {
+    background-color: #f39c10;
+    text-align: center;
+    padding: 2em;
+
+    h1 {
+      margin-bottom: 1em;
+      font-size: 2em;
+    }
+
+    .btn {
+      border: 2px solid #111;
+      background-color: #111;
+      color: #f39c10;
+      border-radius: 5px;
+      padding: .85em;
+
+    }
+  }
+}

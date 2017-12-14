@@ -1,15 +1,17 @@
 * {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
+  margin: 0;
   text-decoration: none;
   list-style-type: none;
-  color: inherit;
-  font-family: 'Itim', cursive;
+
 }
 
+
 body {
-  background-color: $darkBrown;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.75em;
+  transition: .3s;
 }
 
 .container {
@@ -19,46 +21,6 @@ body {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-  }
-
-.nav-btn {
-  cursor: pointer;
-  display: block;
-  position: fixed;
-  color: $white;
-  right: 20px;
-  top: 15px;
-  font-size: 1.5em;
-  z-index: 12;
-}
-
-
-@media screen and (min-width: 768px) {
-  .page {
-    margin-left: 150px;
-  }
-
-  .nav-btn {
-    display: none;
-  }
-}
-
-.btn {
-  border: 2px solid $pink;
-  border-radius: 5px;
-  margin: 2em auto;
-  background: $pink;
-  height: 55px;
-  width: 200px;
-  text-align: center;
-  padding-top: .5em;
-  font-size: 1.25em;
-  cursor: pointer;
-}
-
-.current {
-  border-right: 2px solid $pink;
-  border-radius: 2.5px;
+  max-width: 100%;
+  height: auto;
 }

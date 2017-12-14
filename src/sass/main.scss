@@ -1,8 +1,9 @@
-@import "https://fonts.googleapis.com/css?family=Indie+Flower|Itim";
-@import "https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css ";
-@import "_variables";
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
+@import 'https://fonts.googleapis.com/css?family=Dosis|Mrs+Saint+Delafield|Ubuntu';
 @import "_global";
-@import "_nav";
-@import "_hero";
+@import '_nav';
+@import "_header";
+@import "_about";
 @import "_portfolio";
-@import "_card";
+@import "_contact";
+@import "_footer";
