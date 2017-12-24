@@ -1,61 +1,60 @@
-.about-section {
-  background-color: #232323;
+#about {
+  width: 100%;
+  background-color: $black;
+  color: $white;
+  padding: 2%;
 
-  .about-me {
-    color: #fff;
-    text-align: center;
+  .main {
+    margin-bottom: 1.25em;
 
-    h1 {
+    .img {
       text-align: center;
-      color: #f39c10;
-      padding: 10px;
-      margin-bottom: 10px;
+      img {
+        border-radius: 5%;
+      }
     }
-    h2 {
-      margin-top: 20px;
+    .desc {
+      text-align: center;
     }
-    .box-info {
-      margin-top: 10px;
-      padding: 10px;
-      .box {
-        margin: 20px;
-        .beginner {
-          color: #e74c3c;
-        }
-        .intermediate {
-          color: #f1c40f;
-        }
-        .pro {
-          color: #2ecc71;
+  }
+  .journey {
+    text-align: center;
+  }
+
+  .social-find {
+    margin-top: 1.25em;
+    .about-social {
+      text-align: center;
+      li {
+        font-size: 1.5em;
+        padding: 1em;
+        display: inline;
+        a {
+          color: $pink;
         }
       }
     }
   }
 }
 
-@media (min-width: 768px) {
-  .about-section {
-    background-color: #232323;
+@media screen and (min-width: 768px) {
+  #about {
 
-    .about-me {
-      padding: 4.25em;
-      color: #fff;
-      outline: 2px solid rgba(243, 156, 18,1);
-      outline-offset: -2.5em;
-      position: relative;
+    .main {
+      display: flex;
 
-      h1 {
-        color: #f39c10;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        top: .45em;
-        background-color: #232323;
-        padding: 10px;
+      .img {
+        text-align: center;
+        margin-right: 1.25em;
       }
-      .box-info {
-        display: flex;
+      .desc {
+        padding-top: .5em;
+        text-align: left;
       }
+    }
+
+    .journey {
+      text-align: left;
     }
   }
 }
